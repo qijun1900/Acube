@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 
-
 const JWT = require('./MiddleWares/jwt');
 var indexRouter = require('./routes/index');
 const UserRouter = require('./routes/admin/UserRouter');
